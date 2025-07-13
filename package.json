@@ -1,0 +1,21 @@
+{
+  "name": "brave-list-kr",
+  "version": "1.0.0",
+  "description": "List-KR filter list for Brave browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "ts-node filter-generator.ts"
+  },
+  "author": "39hn",
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@commander-js/extra-typings": "^14.0.0",
+    "commander": "^14.0.0"
+  }
+}
