@@ -197,7 +197,7 @@ async function generateFilter(outputDir: string): Promise<void> {
             fs.mkdirSync(outputDir, { recursive: true });
         }
         
-        const outputPath = path.join(outputDir, 'filter.txt');
+        const outputPath = path.join(outputDir, 'list-kr.txt');
         const finalContent = finalLines.join('\n');
         fs.writeFileSync(outputPath, finalContent, 'utf8');
         

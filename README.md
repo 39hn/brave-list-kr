@@ -11,7 +11,7 @@
 1. Brave 브라우저에서 `brave://settings/shields/filters` 접속
 2. 맞춤 필터 목록 추가 메뉴의 필터 목록 URL 입력란에 다음 주소 입력:
    ```
-   https://raw.githubusercontent.com/39hn/brave-list-kr/filter/filter.txt
+   https://raw.githubusercontent.com/39hn/brave-list-kr/filter/filter/list-kr.txt
    ```
 3. "추가" 버튼 클릭
 
