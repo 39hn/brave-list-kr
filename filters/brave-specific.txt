@@ -1,3 +1,0 @@
-! Brave specific filters
-
-chzzk.naver.com##+js(brave-fix)
