@@ -48,16 +48,20 @@ function evaluateCondition(condition: string): boolean {
 }
 
 // URL에서 파일을 다운로드하는 함수
-async function downloadFile(url: string | URL): Promise<string[]> {
+async function fetchText(url: URL): Promise<string[]> {
     try {
         const response = await fetch(url);
         if (!response.ok) {
-            throw new Error(`Failed to download file: ${response.status}`);
+            throw new Error(`status: ${response.status}`);
         }
         const content = await response.text();
-        return content.split('\n');
+        const text = content.trim();
+        if ( text.startsWith('<') && text.endsWith('>') ) {
+            throw new Error(`not a text file`);
+        }
+        return text.split('\n');
     } catch (error) {
-        throw new Error(`Failed to download file from ${url}: ${error}`);
+        throw new Error(`Failed to fetch file from ${url}: ${error}`);
     }
 }
 
@@ -103,9 +107,8 @@ function processIfDirectives(lines: string[]): string[] {
 }
 
 // !#include 지시어를 처리하는 함수 (라인별 처리)
-async function processIncludeDirectives(lines: string[], baseUrl: string | URL): Promise<string[]> {
+async function processIncludeDirectives(lines: string[], baseUrl: URL): Promise<string[]> {
     const processedLines: string[] = [];
-    const baseUrlObj = typeof baseUrl === 'string' ? new URL(baseUrl) : baseUrl;
     
     for (const line of lines) {
         const trimmedLine = line.trim();
@@ -115,16 +118,17 @@ async function processIncludeDirectives(lines: string[], baseUrl: string | URL):
             const includePath = trimmedLine.substring(9).trim();
             const includeUrl = includePath.startsWith('http') 
                 ? new URL(includePath)
-                : new URL(includePath, baseUrlObj);
+                : new URL(includePath, baseUrl);
             
-            processedLines.push(`! [include] ${includeUrl.href}`);
-            
-            console.log(`Downloading include file: ${includeUrl.href}`);
-            const includedLines = await downloadFile(includeUrl);
-            
-            // 포함된 파일의 라인들을 재귀적으로 처리
-            const processedIncludedLines = await processDirectives(includedLines, includeUrl);
-            processedLines.push(...processedIncludedLines);
+            console.log(`Fetching include file: ${includeUrl.href}`);
+            const includedLines = await fetchText(includeUrl);
+            const processedIncludedLines = await processLines(includedLines, includeUrl);
+
+            processedLines.push(
+                `! >>>>>>>> ${includeUrl.href}`,
+                ...processedIncludedLines,
+                `! <<<<<<<< ${includeUrl.href}`
+            );
         } else {
             processedLines.push(line);
         }
@@ -134,7 +138,7 @@ async function processIncludeDirectives(lines: string[], baseUrl: string | URL):
 }
 
 // 모든 directive를 처리하는 통합 함수 (재귀적)
-async function processDirectives(lines: string[], baseUrl: string | URL): Promise<string[]> {
+async function processLines(lines: string[], baseUrl: URL): Promise<string[]> {
     // 1. 먼저 !#if 지시어 처리
     const filteredLines = processIfDirectives(lines);
     
@@ -166,8 +170,11 @@ function processLocalFilters(): string[] {
             const filePath = path.join(filtersDir, file);
             console.log(`Reading local filter file: ${file}`);
             const lines = readLocalFile(filePath);
-            localLines.push(`! [local-include] ${file}`);
-            localLines.push(...lines);
+            localLines.push(
+                `! >>>>>>>> ${filePath}`,
+                ...lines,
+                `! <<<<<<<< ${filePath}`
+            );
         }
     }
     
@@ -176,15 +183,14 @@ function processLocalFilters(): string[] {
 
 // 메인 처리 함수
 async function generateFilter(outputDir: string): Promise<void> {
-    const baseUrl = new URL('https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/');
-    const listKrUrl = new URL('filter-uBlockOrigin.txt', baseUrl);
+    const mainListUrl = new URL('https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filter-uBlockOrigin.txt');
     
     try {
-        console.log('Downloading List-KR filter...');
-        const lines = await downloadFile(listKrUrl);
+        console.log('Fetching List-KR filter...');
+        const lines = await fetchText(mainListUrl);
         
-        console.log('Processing all directives...');
-        const processedLines = await processDirectives(lines, baseUrl);
+        console.log('Processing lines...');
+        const processedLines = await processLines(lines, mainListUrl);
         
         console.log('Processing local filters...');
         const localLines = processLocalFilters();
