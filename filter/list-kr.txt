@@ -536,6 +536,7 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_URL.txt
+||t1.daumcdn.net/top/daum/op/chanel/
 ||t1.daumcdn.net/top/daum/op/smartfarm/
 ||cdn.lol.ps/static/prod/*/_app/immutable/assets/banner-
 ||platformgreat.kr/coupang_1.jpg
