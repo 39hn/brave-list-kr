@@ -6,9 +6,24 @@ import * as path from 'path';
 const CONDITIONS = {
     'ext_abp': false,
     'ext_ublock': true,
+    'env_chromium': true,
     'env_firefox': false,
+    'env_mv3': false,
+    'false': false,
     'cap_html_filtering': false,
-    'cap_user_stylesheet': true
+    'cap_user_stylesheet': true,
+    'adguard': false,
+    'adguard_app_android': false,
+    'adguard_app_cli': false,
+    'adguard_app_ios': false,
+    'adguard_app_mac': false,
+    'adguard_app_windows': false,
+    'adguard_ext_android_cb': false,
+    'adguard_ext_chromium': true,
+    'adguard_ext_chromium_mv3': false,
+    'adguard_ext_firefox': false,
+    'adguard_ext_opera': true,
+    'adguard_ext_safari': false,
 };
 
 // 조건을 평가하는 함수
