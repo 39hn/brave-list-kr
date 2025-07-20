@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.0715.0
+! Version: 2025.0720.0
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -1887,6 +1887,7 @@ url.kr##form[method="post"] > #maskLayer
 m.tinnews.co.kr##.bn
 etoland.co.kr###m_main_attendance_wrap ~ a[href^="../../plugin/mobile/board.php?bo_table=market_"]
 m.fmkorea.com##div[id^="fmad_"] + div[style^="height:"][class]
+fmkorea.com##div.fmad_wrapper
 etoland.co.kr##article[class^="etoad-"]
 biz.newdaily.co.kr##div[itemprop="articleBody"] > div[style^="margin:"].clearfix
 newdaily.co.kr##div[style*=";height:"][data-ad]
