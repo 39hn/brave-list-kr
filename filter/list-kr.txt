@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.0722.0
+! Version: 2025.0721.1
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -536,7 +536,6 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_URL.txt
-||i.postimg.cc^$domain=m-sooriya.tistory.com
 ||t1.daumcdn.net/top/daum/op/chanel/
 ||t1.daumcdn.net/top/daum/op/smartfarm/
 ||cdn.lol.ps/static/prod/*/_app/immutable/assets/banner-
@@ -1626,9 +1625,6 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
-m-sooriya.tistory.com##div[id^="fix_scroll_sidebar_DIV_"]
-m-sooriya.tistory.com##a[href^="https://soz.kr/"]
-m-sooriya.tistory.com##.script_add_ads
 damoang.net##div[data-testid="board-ads-banner"]
 damoang.net##.ad-container
 m.daum.net##div[style*="/top/daum/op/chanel/"].imgdeco_below
