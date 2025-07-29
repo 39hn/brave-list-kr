@@ -11,6 +11,8 @@
 !
 
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/3rd_domains.txt
+||daro.so^
+||adrop.io^
 ||adgirl.yes24.com^
 ||ad.api.adwiser.kr^
 ||recoshopping.naver.com^
