@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.0805.1
+! Version: 2025.0806.0
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -1950,6 +1950,7 @@ koreatimes.com##div[class^="bn_"]:not([class*=" "])
 m.sports.chosun.com,m.sportschosun.com##body > div[style^="height:"][style*="width:"]
 m.sports.chosun.com,m.sportschosun.com###wrap > div[style*="height:"][style^="position:"]
 a-ha.io##div[class^="teads-"]
+cafe.naver.com##div.ArticleFormBanner:has(> a[href^="https://link.coupang.com"])
 m.yna.co.kr##.hidden-obj ~ aside[class^="aside-box"].bg11
 m.yna.co.kr##section[class^="box-type"].bg11 ul[class^="list"] > li[class^="aside-box"]
 www.coupang.com###srp-bottom-carousel-dco-contaner
