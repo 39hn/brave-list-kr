@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.0819.0
+! Version: 2025.0819.1
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -11,6 +11,7 @@
 !
 
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/3rd_domains.txt
+||bridgelabs.kr^
 ||daro.so^
 ||adrop.io^
 ||adgirl.yes24.com^
@@ -541,6 +542,7 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_URL.txt
+*$denyallow=ilbe.com,script,xmlhttprequest,domain=ilbe.com
 ||i.postimg.cc^$domain=m-sooriya.tistory.com
 ||t1.daumcdn.net/top/daum/op/chanel/
 ||t1.daumcdn.net/top/daum/op/smartfarm/
