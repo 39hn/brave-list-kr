@@ -543,6 +543,8 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_URL.txt
+||nate.com/js/common/natead_
+||nate.com/js/data/jsonAdFunFun.js
 ||static.kbdmp.com/moa/moa_ads_
 *$denyallow=ilbe.com,script,xmlhttprequest,domain=ilbe.com
 ||i.postimg.cc^$domain=m-sooriya.tistory.com
