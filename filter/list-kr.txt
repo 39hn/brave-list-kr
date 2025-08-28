@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.0827.7
+! Version: 2025.0827.8
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -544,6 +544,7 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_URL.txt
+||static.sooplive.co.kr/asset/service/da/AdParameter.js
 ||prod.danawa.com/list/ajax/getAdSmartProductList.ajax.php
 ||img.danawa.com/ui_category/topBanner/
 ||ssl.pstatic.net/t.static.blog/mylog/versioning/SspAdPost-
@@ -2595,7 +2596,7 @@ edufindkorea.com###body_wrap > #body_main > div[style]:nth-child(2)
 junggi.co.kr##img[src^="/data/__banner/"]
 junggi.co.kr##img[src^="/image/banner/"]
 danawa.com##.main__grid.main__grid--line .main__grid__right
-dpg.danawa.com##div[id*="-ad-"]
+kookje.co.kr,dpg.danawa.com##div[id*="-ad-"]
 maxmovie.com,dcnewsj.joins.com,news.heraldcorp.com,biz.chosun.com,place.naver.com,styleup.gameangel.com,wowtv.co.kr,news.naver.com##div[id*="_ad_"]
 thelec.kr##div[onclick^="wcs.event("]
 m.starnewskorea.com###content > div[style^="background:"][class]
