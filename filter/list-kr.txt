@@ -256,6 +256,8 @@
 ! DOMAIN-REFRESHER: END
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/3rd_domains.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/1st_domains.txt
+||ad.kakaobank.com^
+||ad-pulse.kakaobank.cloud^
 ||dnzedhceh7nim.cloudfront.net^
 ||appmon.shinhan.com^
 ||ads.ahnlab.com^
