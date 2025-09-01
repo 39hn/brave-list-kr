@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.0831.1
+! Version: 2025.0901.1
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -11,6 +11,7 @@
 !
 
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/3rd_domains.txt
+||admize.io^
 ||adguru.kr^$third-party
 ||image.cauly.co.kr^
 ||bridgelabs.kr^
@@ -546,6 +547,7 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_URL.txt
+||uwayapply.com/js/adscript_
 ||prod.danawa.com/list/ajax/getAdSmartProductList.ajax.php
 ||img.danawa.com/ui_category/topBanner/
 ||ssl.pstatic.net/t.static.blog/mylog/versioning/SspAdPost-
@@ -1037,7 +1039,6 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 ||t1.daumcdn.net/kas/static/ba.min.js
 ||tv.nate.com/adv/
 ||pervsi.com/info/skin_board/m/img/coupang.jpeg
-||uwayapply.com/img/common/frame_bn_btn
 ||image.laftel.net/guango/
 ||hairshop.kakao.com/proxy/app/*/search/around/hair-shops/ad|
 ||community.rememberapp.co.kr/_next/image?url=*%2Fuploads%2Fbanner%2F
@@ -1646,6 +1647,12 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+uwayapply.com##.recom_univ
+uwayapply.com##.media_area
+uwayapply.com##.power_univ
+uwayapply.com##.search_univ_bn
+uwayapply.com##div[class^="bn_area"]
+uwayapply.com##.foot_banners
 coupang.com##.sdp-ads
 coupang.com##div[class^="sdp-"][class*="-banner "]
 coupang.com###srpKeywordProductTopBanner
@@ -2435,13 +2442,6 @@ tiendeo.co.kr##[class$="-advert"]
 tiendeo.co.kr##section[class*=" "]#header-standard-container
 infosori.com##center > div[style] ~ center ~ div[style^="margin-top:"]
 sori114.com,pervsi.com###bottom_sit_handmade
-uwayapply.com###frameBox
-uwayapply.com###login_box ~ .roll
-uwayapply.com###login_box ~ #rightBox
-uwayapply.com##.primiumList
-uwayapply.com##ul[class$="_banner"]
-uwayapply.com###contentsBox #mainCon #top_area
-uwayapply.com##div[id$="_bn"]
 mbong.kr##div[role="main"]#content div[data-pswp-uid].rhymix_content:not([class^="document_"]):not([class^="comment_"])
 m.diningcode.com##div[class$="-ad"] ~ .section.naver
 diningcode.com##.MapMain > #map ~ div[class]:not([id]):not([style])
@@ -2453,7 +2453,7 @@ zdnet.co.kr##div[class*="_bn_"][style]
 dprime.kr.dvdprime.com##div[style~="height:"][style~="border-top:"].relative
 m.ppomppu.co.kr,comic.naver.com,health.chosun.com,dprime.kr##[class*="_ad_"]
 ypbooks.co.kr##td[id^="divBn_"]
-m.mimint.co.kr,m.dailian.co.kr,uwayapply.com,ypbooks.co.kr##div[id$="Banner"]
+m.mimint.co.kr,m.dailian.co.kr,ypbooks.co.kr##div[id$="Banner"]
 ypbooks.co.kr##div[style]#cenArea > .today
 lawtalknews.co.kr##.tdn-inventory
 www.tmon.co.kr##ul#_dealListContainer.list > li.item.type_admon[data-maincategoryno]
@@ -3798,7 +3798,6 @@ hashcode.co.kr#$#[class][itemtype*="//schema.org/"] > .center { width: 100% !imp
 hashcode.co.kr#$#[class][itemtype*="//schema.org/"] .markdown { max-width: 100% !important; flex-basis: 100% !important; }
 pinpointnews.co.kr#$#.box-skin .mobile-popular { border-top: none !important; }
 news.nate.com#$#.thisTimeNews > ul { border-right: none !important; width: 100% !important; }
-uwayapply.com#$##contentsBox #login_box { width: 350px !important; float: right !important; border-bottom: solid 2px #da3b40 !important; border-left: solid 2px #da3b40 !important; }
 encar.com#$#.feature_index .box_user { width: 100% !important; }
 shoppinghow.kakao.com#$#.wide_layout .wrap_srch_res .wrap_tab { width: 100% !important; }
 shoppinghow.kakao.com#$#.wide_layout .wrap_srch_res .wrap_sort { width: auto !important; }
