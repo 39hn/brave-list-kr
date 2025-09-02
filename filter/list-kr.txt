@@ -11,6 +11,7 @@
 !
 
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/3rd_domains.txt
+||mman.kr^
 ||admize.io^
 ||adguru.kr^$third-party
 ||image.cauly.co.kr^
