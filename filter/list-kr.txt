@@ -10,7 +10,7 @@
 ! Version must be UTC format.
 !
 
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/3rd_domains.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/3rd_domains.txt
 ||mman.kr^
 ||admize.io^
 ||adguru.kr^$third-party
@@ -256,8 +256,8 @@
 ||awd.spochak.com^
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/3rd_domains.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/1st_domains.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/3rd_domains.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/1st_domains.txt
 ||ad.kakaobank.com^
 ||ad-pulse.kakaobank.cloud^
 ||dnzedhceh7nim.cloudfront.net^
@@ -408,8 +408,8 @@
 ||tenping.kr^$third-party
 ||infolinks.com^
 ||adcastmarket.com^
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/1st_domains.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/general_elemhide.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/1st_domains.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/general_elemhide.txt
 ##amp-ad
 ##iframe[src*="//authanalysis.com/"]
 ##amp-embed
@@ -494,8 +494,8 @@
 ##iframe[src*="//www.mediacategory.com/servlet/"]
 ##div[id^="targetpushAd_"]
 ##iframe[src*="clickon.kr"]
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/general_elemhide.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_ELEMHIDE.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/general_elemhide.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_ELEMHIDE.txt
 m.cafe.naver.com##.banner_add:matches-path(/ca-fe\\/web\\/cafes\\/(dieselmania|11262350)(\\/|\\?)/)
 ~m.cafe.naver.com,cafe.naver.com##img[src][alt="매니저 등록 배너"]:matches-path(/(&|\\.|\\?)clubid=11262350(&|$)/)
 ~m.cafe.naver.com,cafe.naver.com###editorMainContent tr:has(~ tr img[id="userImg8967591"]):matches-path(/(&|\\.|\\?)clubid=10912875(&|$)/)
@@ -530,8 +530,8 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(anycal
 ~m.cafe.naver.com,cafe.naver.com###editorMainContent a[href*="//cafe.naver.com/eyejoker7?iframe"][target="_blank"] ~ *:matches-path(/(&|\\.|\\?)clubid=29560217($|&)/)
 m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steamindiegame|27842958)(\\/|\\?)/)
 ~m.cafe.naver.com,cafe.naver.com##img[src][alt="매니저 등록 배너"]:matches-path(/(&|\\.|\\?)clubid=27842958($|&)/)
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/general_url.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_ELEMHIDE.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/general_url.txt
 ! ndsoft.co.kr - An internet press hosting service
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/bannerManager\//$match-case
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/bannerpop\/uploads\//
@@ -543,11 +543,11 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/RealMedia\/ads\//
 /data/banner.json?$domain=~nintendo.*
 /ad-manager.min.js
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/general_url.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/general_url.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/general_url.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/general_url.txt
 !
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/general_url.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_URL.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/general_url.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_URL.txt
 ||news.sbs.co.kr/js/news-player/player.adInfoUrlList.js
 ||11st.co.kr/js/ver/*/powerLink.js
 ||ssl.pstatic.net/t.static.blog/mylog/versioning//js/post/ssp/SspAdContentCallerFor
@@ -1591,8 +1591,8 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 ||wwwimageup.angle777899.com/other/atoona/
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_URL.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_ELEMHIDE.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_URL.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_ELEMHIDE.txt
 ! ##div[id^="ad_"]
 m.stock.naver.com,donga.com,ildaro.com,pann.nate.com,sportsseoul.com,seoulwire.com,r114.com,dprime.kr,zdnet.co.kr,fpn119.co.kr,serieamania.com,news.nate.com,m.nate.com,www.nate.com,m.edaily.co.kr,m.sedaily.com,m.thisisgame.com,planet-times.com,mobile.newsis.com,fnnews.com,mania.kr,mosen.mt.co.kr,ruliweb.com##div[id^="ad_"]
 ! ##div[class$="_ad"]
@@ -3089,8 +3089,8 @@ torrentmode.com##a[href^="https://torrentmode.com/bbs/bannerhit.php"]
 103.204.13.68##div[class^="mobile-m ad720_"]
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/allowlist.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_ELEMHIDE.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/allowlist.txt
 @@||ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js$domain=smartstore.naver.com
 @@||nam.veta.naver.com/nac/$xmlhttprequest,domain=smartstore.naver.com
 @@||d2i2w6ttft7yxi.cloudfront.net/ad_banner/$domain=witchform.com
@@ -3139,8 +3139,8 @@ x86.co.kr#@#.download_ad
 @@||dasibogo.net/wp-content/uploads/sites/23/2024/04/dasibogologo$domain=dasibogo.net
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/allowlist.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/extended_css_ELEMHIDE.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/allowlist.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/extended_css_ELEMHIDE.txt
 search.naver.com##li:matches-attr("/-[a-z]+-[a-z]+$/"="*nad-*")
 namu.wiki#?##app div[class*=" "] > div[class*=" "]:is(:has(div[id][class]:empty), :has(iframe[id^="google_ads_iframe_"])):matches-css(margin-bottom: /[0-9]{2,}/)
 news.tvchosun.com#?#.rnb > .rnb_cont:matches-css(height: 0px):matches-css(padding-top: 30px)
@@ -3288,8 +3288,8 @@ zzzz.lol#?#.widget-side .widget-title:has(+ div a[href^="/bbs/link.php?bo_table=
 [$domain=/^yagong[0-9]+\.com$/]##div[class*="border"]:has(> a[href][target*="_blank"])
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/extended_css_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/extended_css_INJECTION.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/extended_css_ELEMHIDE.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/extended_css_INJECTION.txt
 m.fmkorea.com#$?#.bd.bd_mobile:not(:has(*)):has(~ #spot form[action][method].search) { remove: true; }
 m.fmkorea.com#$?#*.bd.bd_mobile:not(:has(#bd_capture ~ #comment)):has(form[action="./"]:matches-css(height: auto)) { remove: true; }
 search.daum.net#$?#body.nate aside#mAside > div[disp-attr]:has(> .wing_nate) + div[disp-attr] { margin-top: 0px !important; }
@@ -3324,8 +3324,8 @@ zzzz.lol#$?#.ent_wrapper.slide-vertical-effect .ent_news:not(:has(.ent_prefix:co
 aniya24.com#$?#div[class*="-player-wrapper"] > .play-media-control ~ div[class^="beeteam"][class*="-player-sub-element"] { remove: true; }
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/extended_css_INJECTION.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_REDIRECT.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/extended_css_INJECTION.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_REDIRECT.txt
 ||ssl.pstatic.net/tveta/libs/glad/prod/gfp-core.js$script,domain=m.cafe.naver.com,redirect=noop.js
 ||video.veilduck.app^$redirect=noop-1s.mp4
 ||advod.sbs.co.kr/sbsad/$media,redirect=noop-1s.mp4
@@ -3337,8 +3337,8 @@ aniya24.com#$?#div[class*="-player-wrapper"] > .play-media-control ~ div[class^=
 ||amazon-adsystem.com/aax2/apstag.js$script,redirect=amazon_apstag.js
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_REDIRECT.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/extended_css_ELEMHIDE.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_REDIRECT.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/extended_css_ELEMHIDE.txt
 pedia.watcha.com#?#div[class] > section[class*=" "]:has(> section > a h3 > p:has-text( · AD))
 m.ruliweb.com#?#.TimelineHeaderMargin ~ div .infinite-scroll-component > div:has(span[style*="max-height:"]:has-text(AD))
 www.naver.com#?#ul[class^="ContentHeaderView-"][role="tablist"] > li:has(> a:has-text(쇼핑투데이))
@@ -3400,11 +3400,11 @@ hdhd344.net,hdhd345.net,hdhd346.net,hdhd347.net,hdhd348.net,hdhd349.net,hdhd350.
 blacktoon302.com,blacktoon303.com,blacktoon304.com,blacktoon305.com,blacktoon306.com,blacktoon307.com,blacktoon308.com,blacktoon309.com,blacktoon310.com,blacktoon311.com,blacktoon312.com,blacktoon313.com#?#.alert.alert-danger:has(> a:has-text([AD]))
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/extended_css_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/extended_css_INJECTION.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/extended_css_ELEMHIDE.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/extended_css_INJECTION.txt
 !
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/extended_css_INJECTION.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/scriptlets.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/extended_css_INJECTION.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/scriptlets.txt
 ! This file includes a filter using action operators of uBlock Origin that can be converted to AdGuard scriptlet.
 !
 ! Check after 2024 April 1st.
@@ -3491,14 +3491,14 @@ zzzz.lol##+js(nosiif, animationEffects[settings.animation.effect])
 lover932.net,lover933.net,lover934.net,lover935.net,lover936.net,lover937.net,lover938.net,lover939.net,lover940.net,lover941.net##+js(nano-stb, closeBtn.innerHTML, , 0.001)
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/scriptlets.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/javascript.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/scriptlets.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/javascript.txt
 !
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/javascript.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/javascript.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/javascript.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/javascript.txt
 !
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/javascript.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/antiadblock.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/javascript.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/antiadblock.txt
 ! ##+js(acis, document.addEventListener, /adscale_slot_id/)
 asdn.kr,healthfeed.co.kr,bikesell.co.kr,remiz.co.kr,enjoytaiwan.co.kr,poketory.com,withukor.com,tistory.com,love.asdn.kr,untitle.org,seo-marketing.co.kr##+js(acis, document.addEventListener, /adscale_slot_id/)
 ! ##+js(nostif, /\.displayMessage\(/)
@@ -3648,210 +3648,18 @@ hasha.in##+js(no-fetch-if, adManager.js)
 lover932.net,lover933.net,lover934.net,lover935.net,lover936.net,lover937.net,lover938.net,lover939.net,lover940.net,lover941.net##+js(nostif, document[_0x)
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/antiadblock.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/removeparam.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/antiadblock.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/removeparam.txt
 ||newspic.kr^$removeparam=cp
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/removeparam.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/allowlist.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/removeparam.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/allowlist.txt
 auto.danawa.com##+js(set, NAVER_ADPOST_V2, noopFunc)
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/allowlist.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_URL.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/allowlist.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_URL.txt
 !
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_URL.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_URL.txt
 
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/3rd_domains.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/3rd_domains.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/1st_domains.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/1st_domains.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/general_elemhide.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/general_elemhide.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/specific_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/specific_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/general_url.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/general_url.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/general_url.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/general_url.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_URL.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_URL.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/allowlist.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/allowlist.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/extended_css_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/extended_css_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/extended_css_INJECTION.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/extended_css_INJECTION.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/specific_REDIRECT.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/specific_REDIRECT.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/extended_css_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/extended_css_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/extended_css_INJECTION.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/extended_css_INJECTION.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/scriptlets.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/scriptlets.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/javascript.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/javascript.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/javascript.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/javascript.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/antiadblock.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/antiadblock.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/removeparam.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/removeparam.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/allowlist.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/allowlist.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/specific_URL.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/specific_URL.txt
-
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/3rd_domains.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/3rd_domains.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/1st_domains.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/1st_domains.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/general_elemhide.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/general_elemhide.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/specific_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/specific_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/general_url.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/general_url.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/general_url.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/general_url.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/specific_URL.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/specific_URL.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/specific_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/specific_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/allowlist.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/allowlist.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/extended_css_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/extended_css_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/extended_css_INJECTION.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/extended_css_INJECTION.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/specific_REDIRECT.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/specific_REDIRECT.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/extended_css_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/extended_css_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/extended_css_INJECTION.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/extended_css_INJECTION.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/scriptlets.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/scriptlets.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/javascript.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/javascript.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/javascript.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/javascript.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/antiadblock.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/antiadblock.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/removeparam.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/removeparam.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/allowlist.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/allowlist.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/specific_URL.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/specific_URL.txt
-
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/3rd_domains.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/3rd_domains.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/1st_domains.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/1st_domains.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/general_elemhide.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/general_elemhide.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/general_url.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/general_url.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/general_url.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/general_url.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/specific_URL.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/specific_URL.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/specific_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/specific_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/allowlist.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/allowlist.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/extended_css_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/extended_css_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/extended_css_INJECTION.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/extended_css_INJECTION.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_REDIRECT.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_REDIRECT.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/extended_css_ELEMHIDE.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/extended_css_ELEMHIDE.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/extended_css_INJECTION.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/extended_css_INJECTION.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/scriptlets.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/scriptlets.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/javascript.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/javascript.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/javascript.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/javascript.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/antiadblock.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/antiadblock.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/removeparam.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/removeparam.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/allowlist.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/allowlist.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_URL.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_URL.txt
-
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_CSS.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_CSS.txt
 m.naver.com#$#.wrap.id_search .comp_container { margin-top: 0px !important; }
 lol.ps#$#div[class*="w-full min-w-[280px] pt-10"] > .p-4.pb-0 div[class*="max-w-[480px]"] { width: 100% !important; max-width: none !important; }
 lol.ps#$##summoner-name-header-container { width: 100% !important; }
@@ -4071,35 +3879,14 @@ www.erdcloud.com#$#.erd-container { width: 100% !important; }
 [$domain=/newtoki[0-9]+\.com/]#$#body { overflow: auto !important; }
 !
 ! DOMAIN-REFRESHER: END
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_CSS.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_CSS.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-share/specific_CSS.txt
+! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_CSS.txt
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/2130#issuecomment-1621684566
 apycsports.com#$#.copas_btn { display: none !important; }
 !
 2cpu.co.kr#$#header .row[style] { margin-bottom: 35px !important; }
 sign.dcinside.com#$#.login_inputbox { width: 100% !important; }
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_CSS.txt
-
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_CSS.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_CSS.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/specific_CSS.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/specific_CSS.txt
-
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/specific_CSS.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-share/specific_CSS.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/specific_CSS.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/annoyance/filters-uBO/specific_CSS.txt
-
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/specific_CSS.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-share/specific_CSS.txt
-! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_CSS.txt
-!
-! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_CSS.txt
+! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/filters-uBO/specific_CSS.txt
 
 ! >>>>>>>> /home/runner/work/brave-list-kr/brave-list-kr/filters/brave-specific.txt
 ! Brave specific filters
