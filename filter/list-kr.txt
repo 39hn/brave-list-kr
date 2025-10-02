@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.1002.0
+! Version: 2025.0926.2
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -1653,8 +1653,6 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
-maplescouter.com##.gap-2 > div[class="min-w-[440px]"]
-maplescouter.com##div[class=""] > .flex-col > .justify-center:has(> div[class$="h-[100px]"])
 search.naver.com##.book_list_wrap li[data-ad="true"]
 m.search.naver.com##.book_recommend_list .api_flicking_wrap > div[data-slog-content^="bok_ans:pmax-"]
 search.naver.com##.book_recommend_list .api_flicking_wrap > div[data-effective-adlog]
