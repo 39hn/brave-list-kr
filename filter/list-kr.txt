@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.1023.5
+! Version: 2025.1023.6
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -543,7 +543,6 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 /studio_backend/adforus.
 /^https?:\/\/[a-z0-9-\.]*[a-z0-9-]+\.[a-z]+\/RealMedia\/ads\//
 /data/banner.json?$domain=~nintendo.*
-/ad-manager.min.js^
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/general_url.txt
 !
