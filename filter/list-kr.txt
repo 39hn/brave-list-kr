@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.1029.0
+! Version: 2025.1030.3
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -548,6 +548,7 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_URL.txt
+||filetad.tygem.com/updata/banner/
 ||cdn.wishket.com/yozmit_ad/ad_image/
 ||cdn.zigcou.com/static/*.webp$domain=2798731938.zigcou.com
 ||news.sbs.co.kr/js/news-player/player.adInfoUrlList.js
@@ -1658,6 +1659,10 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+m.inven.co.kr##div[class^="ad-bbs-view-"]
+zod.kr##.app-content > div[id][class*=" "]:has(img.app-main-banner-bg)
+zod.kr##.zod-widgets--deal_partner > a[href^="/deal_partner/"]
+zod.kr##.app-footer a[rel="sponsored noopener"]
 bada.us##.google_sense
 bada.us##.ad-thumb
 bada.us##div:has(> div[id^="div-gpt-ad"]:only-child)
@@ -1729,7 +1734,7 @@ jogemoa.com##.popup_wrap
 pizzaalvolo.co.kr##.btn-loginPhone
 instiz.net##.responsive_main > div[id][style*=";min-height:250px;"]
 instiz.net###topfixed ~ div[class]:has(> div[id^="sense"][style])
-zod.kr##a[href^="https://zod.kr/go/"]
+zod.kr##a[data-href^="https://zod.kr/go/"]
 instiz.net##div[id^="sense"][style]
 webtoonguide.com##.ticket-banner
 webtoonguide.com##.webtoonguide-pick-swiper-container:not(:has(a[href^="/ko/db/"]))
@@ -3604,8 +3609,7 @@ vod.jtbc.co.kr#@#.ad-zone:not(.textads)
 news.jtbc.co.kr##+js(spoof-css, .ad-banner.adsbox.ad-unit.ad-zone, display, block)
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=google-ima.js,domain=vod.jtbc.co.kr|news.jtbc.co.kr
 minipol.tistory.com##+js(set, checkAdBlock, undefined)
-start.klauncher.kr##+js(set, googletag.getVersion, trueFunc)
-||pagead2.googlesyndication.com^$script,redirect=noop.js,domain=start.klauncher.kr
+@@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=start.klauncher.kr,script
 tabriz.kr#@##AdHeader
 tabriz.kr#@##AD_Top
 tabriz.kr#@##ad-lead
