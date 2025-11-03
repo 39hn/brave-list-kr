@@ -259,6 +259,7 @@
 ! DOMAIN-REFRESHER: END
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/3rd_domains.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/1st_domains.txt
+||get*bannerads-6egeg2u34q-du.a.run.app^
 ||ad.kakaobank.com^
 ||ad-pulse.kakaobank.cloud^
 ||dnzedhceh7nim.cloudfront.net^
