@@ -1675,6 +1675,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+start.klauncher.kr##.auxiliary-section
 asked.kr##div[class*="ad_"][style*=":"]
 asked.kr##div[class^="inner_"] > div[class^="banner_"]
 chzzkban.xyz##div[class*=" "]:is([style^="height:"], [style^="pointer-events:"], [style^="width:"]):has(div[id^="adv-"])
@@ -3926,6 +3927,7 @@ auto.danawa.com##+js(set, NAVER_ADPOST_V2, noopFunc)
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/antiadblockplus/filters-uBO/specific_URL.txt
 
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_CSS.txt
+start.klauncher.kr#$#.main-content { width: calc(100vw - 220px) !important; }
 m.naver.com#$#.wrap.id_search .comp_container { margin-top: 0px !important; }
 lol.ps#$#div[class*="w-full min-w-[280px] pt-10"] > .p-4.pb-0 div[class*="max-w-[480px]"] { width: 100% !important; max-width: none !important; }
 lol.ps#$##summoner-name-header-container { width: 100% !important; }
