@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.1127.0
+! Version: 2025.1208.2
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -412,6 +412,7 @@
 ||adcastmarket.com^
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/1st_domains.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/general_elemhide.txt
+##iframe[src*="//ad.imp.joins.com/"]
 ##amp-ad
 ##iframe[src*="//authanalysis.com/"]
 ##amp-embed
@@ -1677,6 +1678,7 @@ eegosa.com##section[id*="_ads_"]
 ! ##div[id*="_AD"]
 sports.donga.com##div[id*="_AD"]
 
+mvod.jtbc.co.kr##div[class^="iframe_"][class$="_ad"]
 app.pizzaalvolo.co.kr##div[class^="css-"][style^="gap: "] > div[tabindex="0"]:has(div[style^="position: absolute; right:"])
 etoland.co.kr##div[class^="etoad_"]
 enuri.com###coupangCpcSection
@@ -3634,6 +3636,7 @@ gall.dcinside.com##+js(remove-node-text, script, /finally *{\n* *document.docume
 chzzkban.xyz##+js(no-fetch-if, pagead2.googlesyndication.com/pagead/js/adsbygoogle.js method:HEAD, emptyStr)
 chzzkban.xyz##+js(trusted-suppress-native-method, Node.prototype.contains, '{"className":"adsbygoogle"}', abort)
 !
+tv.jtbc.co.kr,mvod.jtbc.co.kr,onair.jtbc.co.kr##+js(nostif, 'getComputedStyle(t).getPropertyValue("visibility")')
 erdcloud.com#$?#.ads-block-warning-overlay { remove: true; }
 mylocation.co.kr##+js(nostif, adBlockedMessage)
 ||shana.pe.kr/shana_check/scp*.js$script
@@ -3644,7 +3647,7 @@ kilho.net###detect-alert
 vod.jtbc.co.kr#@#.ad-unit:not(.textads)
 vod.jtbc.co.kr#@#.ad-zone:not(.textads)
 news.jtbc.co.kr##+js(spoof-css, .ad-banner.adsbox.ad-unit.ad-zone, display, block)
-||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=google-ima.js,domain=vod.jtbc.co.kr|news.jtbc.co.kr
+||imasdk.googleapis.com/js/sdkloader/ima3.js$redirect=google-ima.js,domain=vod.jtbc.co.kr|news.jtbc.co.kr|mvod.jtbc.co.kr|tv.jtbc.co.kr
 minipol.tistory.com##+js(set, checkAdBlock, undefined)
 @@||securepubads.g.doubleclick.net/tag/js/gpt.js$domain=start.klauncher.kr,script
 tabriz.kr#@##AdHeader
