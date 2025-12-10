@@ -3403,6 +3403,7 @@ aniya24.com#$?#div[class*="-player-wrapper"] > .play-media-control ~ div[class^=
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices_gpt.js
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/specific_REDIRECT.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/extended_css_ELEMHIDE.txt
+vortexgaming.io#?#div[class^="PostAsideCardList_card_list_inner__"]  > div[class^="PostAsideCardList_card__"]:has(div[class^="PostAsideCardList_close__"]:has-text(AD))
 pedia.watcha.com#?#div[class] > section[class*=" "]:has(> section > a h3 > p:has-text( · AD))
 m.ruliweb.com#?#.TimelineHeaderMargin ~ div .infinite-scroll-component > div:has(span[style*="max-height:"]:has-text(AD))
 www.naver.com#?#ul[class^="ContentHeaderView-"][role="tablist"] > li:has(> a:has-text(쇼핑투데이))
