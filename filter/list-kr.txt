@@ -554,6 +554,8 @@ m.cafe.naver.com##.banner_add.bottom:matches-path(/ca-fe\\/web\\/cafes\\/(steami
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/specific_URL.txt
+||web.joongna.com/main-web/_next/static/chunks/ProductAdsBlock
+||common.joongna.com/static/json/exclude-adsense.json
 ||kyobobook.co.kr/api/gw/onk/ad/
 ||contents.kyobobook.co.kr/advrcntr/IMAC/creatives/
 ||p-api.vortexgaming.io/api/banner?
