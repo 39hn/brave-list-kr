@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2025.1222.1
+! Version: 2025.1223.0
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -3504,6 +3504,7 @@ m.fmkorea.com##+js(json-prune, tpl apply, tpl.[].c)
 chzzk.naver.com##+js(json-prune-xhr-response, ads.[-].eventTracking.ackImpressions.[].url, ads.[].adInfo.responseSize, propsToMatch, 'url:api.chzzk.naver.com/service/t/')
 chzzk.naver.com##+js(json-prune-xhr-response, adBreaks.[-].adSources.[].withRemindAd, videoAdScheduleId, propsToMatch, 'url:api.chzzk.naver.com/service/t/')
 !
+maple.gg##+js(set-cookie, hideFrontPagePopup, true)
 enuri.com##+js(set, getPowerLink, noopFunc)
 2798731938.zigcou.com##+js(trusted-replace-node-text, script, '"isClicked":false', '"isClicked":true', 'includes', '{"props":{"pageProps":{"initialState":{')
 heye.kr##+js(nowoif, pandalive.co.kr/evt/)
