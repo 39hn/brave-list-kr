@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2026.0107.1
+! Version: 2026.0112.2
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -412,6 +412,7 @@
 ||tenping.kr^$third-party
 ||infolinks.com^
 ||adcastmarket.com^
+||ads.aceplanet.co.kr^
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/1st_domains.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/adblocking/filters-share/general_elemhide.txt
 ##iframe[src*="//ad.imp.joins.com/"]
