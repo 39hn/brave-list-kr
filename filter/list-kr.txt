@@ -3787,7 +3787,7 @@ auto.danawa.com##+js(set, NAVER_ADPOST_V2, noopFunc)
 !
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-uBO/general_url.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_URL.txt
-!
+||litt.ly/api/blockevents
 ! <<<<<<<< https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_URL.txt
 ! >>>>>>>> https://cdn.jsdelivr.net/gh/List-KR/List-KR@latest/analytics/filters-share/specific_ELEMHIDE.txt
 !
