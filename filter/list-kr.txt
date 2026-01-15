@@ -1700,6 +1700,7 @@ eegosa.com##section[id*="_ads_"]
 sports.donga.com##div[id*="_AD"]
 
 
+excellesports.com##.modal_contents .modal_wrap
 m.search.naver.com##div[data-block-id^="review/prs_template_"] .sds-comps-header ~ div[data-template-type="vertical"] .sds-comps-vertical-layout.sds-comps-full-layout:has(> .sds-comps-vertical-layout a[href^="https://ader.naver.com/"])
 m.search.naver.com##div[data-block-id^="review/prs_template_"] .sds-comps-header ~ div[data-template-type="vertical"] .sds-comps-vertical-layout.sds-comps-full-layout:has(> .sds-comps-vertical-layout a[href^="https://ader.naver.com/"]) + span
 enjuso.com##.enjuso_exp > a[href^="https://"]
@@ -3523,6 +3524,7 @@ m.fmkorea.com##+js(json-prune, tpl apply, tpl.[].c)
 chzzk.naver.com##+js(json-prune-xhr-response, ads.[-].eventTracking.ackImpressions.[].url, ads.[].adInfo.responseSize, propsToMatch, 'url:api.chzzk.naver.com/service/t/')
 chzzk.naver.com##+js(json-prune-xhr-response, adBreaks.[-].adSources.[].withRemindAd, videoAdScheduleId, propsToMatch, 'url:api.chzzk.naver.com/service/t/')
 !
+excellesports.com##+js(set-cookie, popup_view, disable)
 maple.gg##+js(set-cookie, hideFrontPagePopup, true)
 enuri.com##+js(set, getPowerLink, noopFunc)
 2798731938.zigcou.com##+js(trusted-replace-node-text, script, '"isClicked":false', '"isClicked":true', 'includes', '{"props":{"pageProps":{"initialState":{')
