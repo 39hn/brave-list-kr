@@ -1,7 +1,7 @@
 [uBlock Origin]
 ! Title: List-KR for uBlock Origin
 ! Description: List-KR for uBlock Origin. Maintained by the adblock community and AdGuard.
-! Version: 2026.0130.1
+! Version: 2026.0130.0
 ! Expires: 12 hours
 ! Homepage: https://github.com/List-KR/List-KR
 ! Support: https://list-kr-community.pages.dev/docs/
@@ -2190,7 +2190,7 @@ m.daum.net##div[data-slot-type="IMAGE_BIG_BANNER"].box_bnr
 m.nate.com##.issueBn
 m.cgv.co.kr##.videoAdWrap
 m.ppomppu.co.kr##iframe[src*="/banner/google_ad.html"]
-phdkim.net##.pop-area.--dim.--active:has(> .pop-ad)
+phdkim.net##.pop-area.--dim.--active
 gorani.kr##[class*="_banner"]
 jjan.kr##.side_floating
 kookje.co.kr##div[class^="news_"] > div[style*="height:"]
